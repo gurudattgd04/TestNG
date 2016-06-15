@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MySuite" duration-ms="75" started-at="2016-06-15T09:40:43Z" finished-at="2016-06-15T09:40:43Z">
+    <groups>
+      <group name="p2">
+        <method signature="annotationsTesting.test2()[pri:0, instance:com.test.testng.annotationsTesting@1d0569b]" name="test2" class="com.test.testng.annotationsTesting"/>
+        <method signature="annotationsTesting.testDependency()[pri:0, instance:com.test.testng.annotationsTesting@1d0569b]" name="testDependency" class="com.test.testng.annotationsTesting"/>
+      </group> <!-- p2 -->
+      <group name="p1">
+        <method signature="annotationsTesting.test1()[pri:0, instance:com.test.testng.annotationsTesting@1d0569b]" name="test1" class="com.test.testng.annotationsTesting"/>
+        <method signature="annotationsTesting.test3()[pri:0, instance:com.test.testng.annotationsTesting@1d0569b]" name="test3" class="com.test.testng.annotationsTesting"/>
+      </group> <!-- p1 -->
+    </groups>
+    <test name="priority test cases" duration-ms="75" started-at="2016-06-15T09:40:43Z" finished-at="2016-06-15T09:40:43Z">
+      <class name="com.test.testng.annotationsTesting">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.test.testng.annotationsTesting@1d0569b]" name="beforeclass" is-config="true" duration-ms="13" started-at="2016-06-15T15:10:43Z" finished-at="2016-06-15T15:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.test.testng.annotationsTesting@1d0569b]" name="beforemethod" is-config="true" duration-ms="0" started-at="2016-06-15T15:10:43Z" finished-at="2016-06-15T15:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.test.testng.annotationsTesting@1d0569b]" name="test1" duration-ms="6" started-at="2016-06-15T15:10:43Z" finished-at="2016-06-15T15:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.test.testng.annotationsTesting@1d0569b]" name="beforemethod" is-config="true" duration-ms="0" started-at="2016-06-15T15:10:43Z" finished-at="2016-06-15T15:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.test.testng.annotationsTesting@1d0569b]" name="test2" duration-ms="3" started-at="2016-06-15T15:10:43Z" finished-at="2016-06-15T15:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.test.testng.annotationsTesting@1d0569b]" name="beforemethod" is-config="true" duration-ms="0" started-at="2016-06-15T15:10:43Z" finished-at="2016-06-15T15:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.test.testng.annotationsTesting@1d0569b]" name="test3" duration-ms="3" started-at="2016-06-15T15:10:43Z" finished-at="2016-06-15T15:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.test.testng.annotationsTesting@1d0569b]" name="beforemethod" is-config="true" duration-ms="1" started-at="2016-06-15T15:10:43Z" finished-at="2016-06-15T15:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="testDependency()[pri:0, instance:com.test.testng.annotationsTesting@1d0569b]" name="testDependency" duration-ms="2" depends-on-groups="p1.*" started-at="2016-06-15T15:10:43Z" finished-at="2016-06-15T15:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDependency -->
+      </class> <!-- com.test.testng.annotationsTesting -->
+    </test> <!-- priority test cases -->
+  </suite> <!-- MySuite -->
+</testng-results>

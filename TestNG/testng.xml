@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="MySuite">
+
+<!-- <test name="Sanity test">
+ <classes>
+ <class name = "com.test.testng.annotationsTesting" />
+ </classes>
+ </test>-->
+ 
+ 
+ <test name="priority test cases"> 
+  <groups>
+     <run>
+       <include name="p1"/>
+      </run>
+  </groups>
+   <classes>
+      <class name = "com.test.testng.annotationsTesting" />
+   </classes>
+ </test>
+ 
+</suite> 
