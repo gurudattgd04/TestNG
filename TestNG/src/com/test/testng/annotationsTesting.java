@@ -36,7 +36,7 @@ public class annotationsTesting {
 		System.out.println("2nd test case");
 	}
 	
-	@Test(groups="p1")
+	@Test(groups="p3")
 	public void test3()
 	{
 		System.out.println("p1 test case");
