@@ -12,7 +12,7 @@
  <test name="priority test cases"> 
   <groups>
      <run>
-       <include name="p1"/>
+       <include name="selenium"/>
       </run>
   </groups>
    <classes>
