@@ -12,6 +12,6 @@
 		</property>
 		<property name="NumRetry" value="5"></property>
 		<property name="ProcessType" value="csv"></property>
-		<property name="Browser" value="FireFox"></property>
+		<property name="Browser" value="chrome"></property>
 	</bean>
 </beans>	

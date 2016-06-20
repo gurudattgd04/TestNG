@@ -10,6 +10,9 @@
  
  
  <test name="priority test cases"> 
+ 
+ <parameter name = "realizeadminusername" value = "sarahrealizeadmin"/>
+ <parameter name = "realizeadminpassword" value = "password1"/>
   <groups>
      <run>
        <include name="selenium"/>
